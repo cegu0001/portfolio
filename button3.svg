@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 449.33 368">
+  <defs>
+    <filter id="drop-shadow-1" x="7.21" y="7.47" width="438.3" height="347.66" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="0"/>
+      <feFlood flood-color="#000" flood-opacity="1"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <polygon points="131.96 94.67 154.63 10.67 223.96 94.67 309.29 20 321.29 109.33 431.96 88 366.63 174.67 431.96 230.67 349.29 244 366.63 325.33 281.96 282.67 247.96 345.33 203.96 285.33 131.96 340 131.96 272 39.96 286.67 103.96 221.33 11.96 188.67 99.96 161.33 31.96 66.67 131.96 94.67" style="fill: #e7317e; filter: url(#drop-shadow-1); stroke: #000; stroke-miterlimit: 10; stroke-width: 3px;"/>
+  <text transform="translate(110.03 207.09)" style="font-family: LexendMega-Bold, &apos;Lexend Mega&apos;; font-size: 46px; font-weight: 700;"><tspan x="0" y="0">Om mig</tspan></text>
+</svg>

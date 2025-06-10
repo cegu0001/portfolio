@@ -1,0 +1,37 @@
+@media (width >=600px) {
+  h1 {
+    font-size: 100px;
+    margin: 0;
+    line-height: 1;
+  }
+  .grid_2-1-1-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+  .ommig {
+    font-size: 85px;
+  }
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+header,
+main {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 0;
+  line-height: 1;
+}
+.grid_2-1-1-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

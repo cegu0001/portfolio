@@ -1,0 +1,253 @@
+body {
+  background: url("../img/bg.webp");
+}
+@font-face {
+  font-family: "lexend";
+  src: url(../fonts/LexendMega-Bold.ttf);
+}
+@font-face {
+  font-family: "archivoregular";
+  src: url(../fonts/Archivo-Regular.ttf);
+}
+@font-face {
+  font-family: "archivobold";
+  src: url(../fonts/Archivo-ExtraBold.ttf);
+}
+h1 {
+  font-family: "lexend";
+  color: #ffcd03;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000, -3px 0px 0 #000,
+    3px 0px 0 #000, 0px -3px 0 #000, 0px 3px 0 #000;
+  font-size: 30px;
+  text-align: center;
+}
+h2 {
+  font-family: "lexend";
+  color: #245a34;
+  margin-left: 10px;
+}
+.port {
+  font-family: "lexend";
+  color: #ffcd03;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000, -3px 0px 0 #000,
+    3px 0px 0 #000, 0px -3px 0 #000, 0px 3px 0 #000;
+  font-size: 30px;
+  text-align: left;
+}
+.knap1,
+.knap2,
+.knap3 {
+  height: 20px;
+  width: 70px;
+}
+main {
+  background-color: white;
+  border-style: solid;
+  border-color: #f74e2c;
+  border-width: 1.5px;
+  margin-left: 100px;
+}
+.knap4 {
+  background-color: #3394fb;
+  text-align: center;
+  border-radius: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "lexend";
+  color: #000;
+  font-size: 12px;
+}
+.knap4:hover {
+  box-shadow: 2px 4px black;
+}
+a {
+  text-decoration: none;
+}
+p,
+dl {
+  font-family: "archivoregular";
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 25px;
+}
+h3 {
+  font-family: "archivoregular";
+  font-size: 15px;
+  margin-left: 4px;
+}
+.t2mobil {
+  width: 100%;
+  height: 100%;
+}
+.t2forside1 {
+  width: 99%;
+  height: 50%;
+  margin-left: 2px;
+}
+.t2forside,
+.t2mincomputer,
+.t2operativsystemer,
+.t2komponenter,
+.t2galleri {
+  width: 100%;
+  height: 100%;
+}
+.t3brainstorm,
+.t3moodboards,
+.t3styletile,
+.t3forside,
+.t3findinspiration,
+.t3anmeldelser {
+  width: 100%;
+  height: 100%;
+}
+.t4styletile,
+.t4skitse,
+.t4infografik,
+.t4forside,
+.t4nærkontakt,
+.t4opførsel,
+.t4indberet {
+  width: 100%;
+  height: 100%;
+}
+.t5sandkassestyle,
+.lunamedsimba,
+.lunaudensimba,
+.t5sandkasse,
+.t5virksomhedstuen,
+.t5virksomhedstyle,
+.t5virksomhedkontakt {
+  width: 100%;
+  height: 100%;
+}
+.mig {
+  width: 100%;
+  height: 100%;
+}
+@media (width >=600px) {
+  .port {
+    font-family: "lexend";
+    color: #ffcd03;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000, -3px 0px 0 #000,
+      3px 0px 0 #000, 0px -3px 0 #000, 0px 3px 0 #000;
+    font-size: 100px;
+    text-align: left;
+  }
+  .knap1,
+  .knap2,
+  .knap3 {
+    height: 80px;
+    width: 120px;
+    margin-left: 50px;
+  }
+  .knap4 {
+    background-color: #3394fb;
+    text-align: center;
+    border-radius: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "lexend";
+    color: #000;
+    font-size: 18px;
+    margin-top: 80px;
+  }
+  .t2forside,
+  .t2mincomputer,
+  .t2operativsystemer,
+  .t2komponenter,
+  .t2galleri {
+    width: 70%;
+    height: 70%;
+    margin-left: 200px;
+    margin-bottom: 10px;
+  }
+  .t3brainstorm,
+  .t3moodboards {
+    width: 60%;
+    height: 60%;
+    margin-left: 230px;
+    margin-bottom: 10px;
+  }
+
+  .t3styletile,
+  .t3forside,
+  .t3findinspiration,
+  .t3anmeldelser {
+    width: 70%;
+    height: 70%;
+    margin-left: 200px;
+    margin-bottom: 10px;
+  }
+  .t4styletile,
+  .t4infografik {
+    width: 50%;
+    height: 50%;
+    margin-left: 300px;
+    margin-bottom: 10px;
+  }
+
+  .t4skitse {
+    width: 40%;
+    height: 40%;
+    margin-left: 350px;
+    margin-bottom: 10px;
+  }
+
+  .t4forside,
+  .t4nærkontakt,
+  .t4opførsel,
+  .t4indberet {
+    width: 70%;
+    height: 70%;
+    margin-left: 200px;
+    margin-bottom: 10px;
+  }
+  .t5sandkassestyle,
+  .lunamedsimba,
+  .lunaudensimba,
+  .t5sandkasse,
+  .t5virksomhedstuen,
+  .t5virksomhedstyle,
+  .t5virksomhedkontakt {
+    display: block;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+  }
+  .mig {
+    width: 68%;
+    height: 90%;
+    margin-left: 60px;
+  }
+  .erfaring {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 50px;
+  }
+  .semester {
+    text-align: center;
+  }
+  main {
+    margin-top: 10px;
+  }
+  .knap11 {
+    height: 80px;
+    width: 120px;
+    margin-left: 100px;
+  }
+  .knap22 {
+    height: 80px;
+    width: 120px;
+    margin-left: 100px;
+  }
+  .knap33 {
+    height: 80px;
+    width: 120px;
+    margin-left: 80px;
+  }
+}
